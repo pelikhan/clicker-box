@@ -1,12 +1,8 @@
 input.buttonD4.onEvent(ButtonEvent.Click, function () {
     clik = !(clik)
-    if (clik) {
-    	
-    } else {
-    	
-    }
 })
 let clik = false
+let MINUTE = 60000
 clik = false
 forever(function () {
     if (clik) {
@@ -21,11 +17,18 @@ forever(function () {
         pixel.setColor(0xff0000)
         pins.A1.digitalWrite(true)
     }
-    pause(100)
+    pause(80)
 })
 forever(function () {
     if (clik) {
         keyboard.type("w")
+        keyboard.type("s")
     }
-    pause(300000)
+    pause(5 * MINUTE)
+})
+forever(function () {
+    if (clik) {
+        keyboard.type(" ")
+    }
+    pause(2 * MINUTE)
 })
