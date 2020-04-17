@@ -1,7 +1,3 @@
----
-
----
-
 > Open this page at [https://pelikhan.github.io/clicker-box/](https://pelikhan.github.io/clicker-box/)
 
 This project turns a microcontroller into a mouse / keyboard clicker, optimized for button smashing games.
