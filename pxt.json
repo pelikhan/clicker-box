@@ -5,7 +5,7 @@
     "dependencies": {
         "keyboard": "*",
         "mouse": "*",
-        "adafruit-metro-m4-express": "*"
+        "adafruit-trinket-m0": "*"
     },
     "files": [
         "main.blocks",
